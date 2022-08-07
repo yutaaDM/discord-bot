@@ -5,7 +5,7 @@ const client = new Client({intents: []})
 
 client.once("ready",() => {
     console.log(`Ready! Logged in as ${client.user.tag}! Im on ${client.guilds.cache.size} guild(s)! `)
-   client.user.setActcivity({name:`mit dem Code`, type: `PLAYING`})
+   client.user.setActcivity({name:"mit dem Code,wie eine Katze mit dem Wollknäul", type: "PLAYING"})
 })
 
 
